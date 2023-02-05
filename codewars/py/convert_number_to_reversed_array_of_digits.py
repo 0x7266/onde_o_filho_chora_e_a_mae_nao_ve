@@ -1,0 +1,1 @@
+digitize = lambda n: list(map(int, str(n)[::-1]))
