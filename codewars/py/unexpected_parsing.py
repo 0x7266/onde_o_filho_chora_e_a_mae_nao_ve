@@ -1,0 +1,1 @@
+get_status = lambda is_busy: {"status": ("available", "busy")[is_busy]}
