@@ -1,0 +1,1 @@
+count_sheeps = lambda sheep: sheep.count(True)
