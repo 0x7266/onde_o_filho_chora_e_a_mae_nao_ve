@@ -1,0 +1,1 @@
+two_decimal_places = lambda number: int(number * 100) / 100
