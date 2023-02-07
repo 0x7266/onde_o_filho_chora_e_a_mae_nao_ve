@@ -52,10 +52,12 @@ export const high = (str: string): string => {
   )[0];
 };
 
+// export const high = (str: string): string => str.split(" ")[str.split(" ").map(w => w.split("").reduce((sum, l) => sum + l.charCodeAt(0) - 96, 0)).indexOf(Math.max(...(str.split(" ").map(w => w.split("").reduce((sum, l) => sum + l.charCodeAt(0) - 96, 0)))))]
+
 /* 
 export const high = (str: string): string => {
  const scores: number[] = str.split(' ').map(y => y.split('').reduce((sum, z) => sum + z.charCodeAt(0) - 96, 0))
- return str.split(' ')[scores.indexOf(Math.max(...scores))]
+ return str.split(' ')[scores.indexOf(Math.max(...scores))] 
 }
 */
 
